@@ -2,7 +2,7 @@
 namespace mawdoo3\drsk\auth;
 
 use Illuminate\Support\ServiceProvider;
-use mawdoo3\test\AuthInstall;
+use mawdoo3\drsk\auth\AuthInstall;
 
 class DrskAuthServiceProvider extends ServiceProvider
 {
@@ -12,7 +12,7 @@ class DrskAuthServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public  function boot()
     {
         $this->loadRoutesFrom(__DIR__ . '/Routes/web.php');
         // $this->loadViewsFrom(__DIR__ . '/Views', 'task');

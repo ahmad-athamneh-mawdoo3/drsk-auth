@@ -5,7 +5,7 @@ namespace mawdoo3\drsk\auth\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use \mawdoo3\drsk\auth\Models\SavedResult;
-
+use mawdoo3\drsk\auth\Auth;
 class SearchController extends Controller
 {
     /**
@@ -134,7 +134,6 @@ class SearchController extends Controller
      */
     public function testRoute(Request $request)
     {
-        dd($request->all());
-        return ; 
+        return Auth::isAuthed('ahmad');
     }
 }
