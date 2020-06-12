@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "mawdoo3\\test\\DrskAuthServiceProvider"
+                "mawdoo3\\drsk\\auth\\DrskAuthServiceProvider"
             ],
             "dont-discover": []
         }
