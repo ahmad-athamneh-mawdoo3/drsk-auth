@@ -1,6 +1,6 @@
 {
     "name": "mawdoo3/drsk.auth",
-    "type": "project",
+    "type": "library",
     "description": "Mawdoo3 drsk Auth.",
     "keywords": [
         "Darsk",
