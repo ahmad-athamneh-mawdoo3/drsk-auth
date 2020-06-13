@@ -1,5 +1,5 @@
 <?php
-namespace mawdoo3\drsk\auth;
+namespace Mawdoo3\Drsk\Auth;
 
 
 class Auth  

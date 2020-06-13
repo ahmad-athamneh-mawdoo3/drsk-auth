@@ -1,5 +1,5 @@
 <?php
-namespace mawdoo3\drsk\auth;
+namespace Mawdoo3\Drsk\Auth;
 
 use Illuminate\Console\Command;
 
@@ -36,7 +36,7 @@ class AuthInstall extends Command
      */
     public function handle()
     {
-        exec("php artisan vendor:publish --provider='mawdoo3\drsk\auth\DrskAuthServiceProvider'");
+        exec("php artisan vendor:publish --provider='Mawdoo3\Drsk\Auth\DrskAuthServiceProvider'");
         $this->line("<info>Publishing:</info> Publishing Configration Done");
         exec("php artisan migrate --path=/database/migrations/TaskInstall");
         $this->line("<info>Migrating:</info> Migrating to DB Done");

@@ -1,8 +1,8 @@
 <?php
-namespace mawdoo3\drsk\auth;
+namespace Mawdoo3\Drsk\Auth;
 
 use Illuminate\Support\ServiceProvider;
-use mawdoo3\drsk\auth\AuthInstall;
+use Mawdoo3\Drsk\Auth\AuthInstall;
 
 class DrskAuthServiceProvider extends ServiceProvider
 {
